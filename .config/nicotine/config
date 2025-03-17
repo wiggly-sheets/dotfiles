@@ -226,7 +226,7 @@ notification_popup_wish = True
 [plugins]
 enable = True
 enabled = ['core_commands', 'youtube_info', 'spamfilter', 'plugin_debugger', 'multipaste', 'auto_user_browse', 'anti_shout', 'now_playing_search']
-youtube_info = {'api_key': ' AIzaSyCnnkdpHo7e7VTDqcRfU4_VT9t-ERtd8CU', 'color': 'Local', 'format': ['* Title: %title%', '* Duration: %duration% - Views: %views%']}
+youtube_info = {'api_key': '[call in api file from env here]', 'color': 'Local', 'format': ['* Title: %title%', '* Duration: %duration% - Views: %views%']}
 spamfilter = {'minlength': 200, 'maxlength': 400, 'maxdiffcharacters': 10, 'badprivatephrases': []}
 multipaste = {'maxpubliclines': 4, 'maxprivatelines': 8}
 leech_detector = {'message': 'Please consider sharing more files if you would like to download from me again. Thanks :)', 'open_private_chat': True, 'num_files': 1, 'num_folders': 1, 'detected_leechers': ['hauzi']}
