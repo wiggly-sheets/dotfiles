@@ -14,12 +14,12 @@ return {
 	notifications = 0xffc82d3b,
 	hover = 0x40eae3ea,
 	bar = {
-		bg = 0x0A0A0A40,
-		border = 0x459b9b9b,
+		bg = 0x00000000,
+		border = 0x00000000,
 	},
 	popup = {
 		bg = 0x0A0A0A40,
-		border = 0x459b9b9b,
+		border = 0xff7f8490,
 	},
 
 	with_alpha = function(color, alpha)
